@@ -1,0 +1,71 @@
+body > * {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1175px;
+}
+
+.header {
+    background-color: violet;
+    width: 100%;
+    height: 145px;
+    margin-bottom: 30px;
+}
+
+.main-body {
+    background-color: wheat;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 32px;
+}
+
+.second-body {
+    background-color: royalblue;
+    width: 100%;
+    height: 675px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.title {
+    width: 100%;
+    height: 85px;
+    margin-bottom: 25px;
+}
+
+.sidebar-left {
+    width: 235px;
+    height: 540px;
+    float: left;
+}
+
+.sidebar-right {
+    width: 235px;
+    height: 540px;
+    float: right;
+}
+
+.second-body .main-content {
+    width: 667px;
+    height: 540px;
+    margin: 0 auto;
+}
+
+.copyright {
+    width: 1175px;
+    height: 60px;
+}
+
+.title, .sidebar-left, .second-body .main-content, .sidebar-right{
+    background-color: skyblue;
+}
+
+.copyright {
+    background-color: purple;
+}
